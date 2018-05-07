@@ -5,7 +5,6 @@
 // 一、
 // https://www.cnblogs.com/baiyangyuanzi/p/6519612.html
 // 使用JSON.parse(),JSON.stringify()实现对对象的深拷贝
-/*
 var test={
     a:"ss",
     b:"dd",
@@ -17,21 +16,22 @@ var test={
 console.log("test");
 console.log(test);
 // JSON.parse(jsonstr); ------可以将json字符串转换成json对象
+// eval('(' + jsonstr + ')'); ------同上
 // JSON.stringify(jsonobj); ------可以将json对象转换成json对符串
 var test1 = JSON.parse(JSON.stringify(test)); // 拷贝数组,注意这行的拷贝方法
 console.log("test1");
 console.log(test1);
-test1.c[0].dd="change"; // 改变test1的c属性对象的d属性
-console.log("test");
-console.log(test);  // 不影响test
-console.log("test1");
-console.log(test1);
-var test2 = test;
-test2.c[0].dd="change";
-console.log("test");
-console.log(test);  // 影响test
-console.log("test2");
-console.log(test2);
+// test1.c[0].dd="change"; // 改变test1的c属性对象的d属性
+// console.log("test");
+// console.log(test);  // 不影响test
+// console.log("test1");
+// console.log(test1);
+// var test2 = test;
+// test2.c[0].dd="change";
+// console.log("test");
+// console.log(test);  // 影响test
+// console.log("test2");
+// console.log(test2);
 
 // 二、
 // 数组 -> 数组方法
@@ -256,6 +256,7 @@ console.log("a.indexOf(3): " + a.indexOf(3));
 // 四、
 // js得到多维数组中相同键的值
 // https://blog.csdn.net/xlb744868186/article/details/49798667
+/*
 var arr=[
     {'key1':'value1','key2':'value2','key3':'value3'},
     {'key1':'value4','key2':'value5','key3':'value6'},
@@ -275,3 +276,4 @@ for(var i in obj){
 }
 console.log(narr);
 console.log(narr[1].key2);
+*/

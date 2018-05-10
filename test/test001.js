@@ -5,6 +5,7 @@
 // 一、
 // https://www.cnblogs.com/baiyangyuanzi/p/6519612.html
 // 使用JSON.parse(),JSON.stringify()实现对对象的深拷贝
+/*
 var test={
     a:"ss",
     b:"dd",
@@ -32,6 +33,7 @@ console.log(test1);
 // console.log(test);  // 影响test
 // console.log("test2");
 // console.log(test2);
+*/
 
 // 二、
 // 数组 -> 数组方法
@@ -58,12 +60,15 @@ var a = [6,1,4,3,2,7,8,5];
 console.log(a.sort().join());
 */
 
-// 4、Array.concat()，创建并返回一个新数组，concat()不会修改调用的数组
-/*
+// 4、Array.concat()，创建并返回一个合并的新数组，concat()不会修改调用的数组
 var a = [1,2,3];
 console.log(a.concat(4, [5,[6,7]]));
 console.log(a);
-*/
+// Array.prototype.push.apply，创建并返回一个合并后的数组
+var b = [1,2,3];
+Array.prototype.push.apply(b, (4, [5,[6,7]]))
+console.log(b);
+
 
 // 5、Array.slice()，截取并返回数组，slice()不会修改调用的数组
 /*

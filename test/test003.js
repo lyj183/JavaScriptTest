@@ -24,6 +24,21 @@ var names = _
 var names = _(users).map('user').join(' , ');
 console.log(names);
 console.log(typeof names)
+// 等同于
+var otherWayNames = users.map(item=>item.user).join(' , ')
+console.log(otherWayNames);
+console.log(typeof otherWayNames)
+
+/** 项目中用到的
+ * // 以下三行
+ * var _ = require('lodash')
+ * let contentArray = eval('(' + v.batchCoupon + ')');
+ * v.batchContents = _(contentArray).map('description').join( ' <br> ' );
+ * // 等同于
+ * let contentArray = JSON.parse(v.batchCoupon)
+ * v.batchContents = contentArray.map(item=>item.description).join( '<br>' );
+ **/
+
 // ES5
 // var names = _
 //     .chain(users)

@@ -19,6 +19,7 @@ console.log(test);
 // JSON.parse(jsonstr); ------可以将json字符串转换成json对象
 // eval('(' + jsonstr + ')'); ------同上
 // JSON.stringify(jsonobj); ------可以将json对象转换成json对符串
+console.log("!!!  " + JSON.stringify(test));
 var test1 = JSON.parse(JSON.stringify(test)); // 拷贝数组,注意这行的拷贝方法
 console.log("test1");
 console.log(test1);
@@ -61,6 +62,7 @@ console.log(a.sort().join());
 */
 
 // 4、Array.concat()，创建并返回一个合并的新数组，concat()不会修改调用的数组
+/*
 var a = [1,2,3];
 console.log(a.concat(4, [5,[6,7]]));
 console.log(a);
@@ -68,7 +70,7 @@ console.log(a);
 var b = [1,2,3];
 Array.prototype.push.apply(b, (4, [5,[6,7]]))
 console.log(b);
-
+*/
 
 // 5、Array.slice()，截取并返回数组，slice()不会修改调用的数组
 /*
@@ -100,7 +102,7 @@ console.log(a);
 var b = [1,2,3,4,5];
 console.log("b");
 console.log(b);
-console.log("b.splice(2,0,'a','b')");
+console.log("b.splice(2,0,'a','b')"); // 起始位置2，删除0个，插入'a','b'
 console.log(b.splice(2,0,'a','b'));
 console.log("b");
 console.log(b);
@@ -214,7 +216,7 @@ console.log("e: " + e);
 
 c.map(value => {
     if(value.code == 1){
-    value.age = 10
+    value.age = 10           // 还能添加属性
     }
 })
 console.log("c:")
@@ -226,7 +228,7 @@ console.log(c)
 var a = [5, 4, 3, 2, 1];
 smallvalues = a.filter(function(x) { return x < 3; });
 console.log("smallvalues: " + smallvalues);
-everyother = a.filter(function (x, i) { return i%2 == 0 });
+everyother = a.filter(function (x, i) { return i%2 == 0 });  // x: 元素； i: index。
 console.log("everyother: " + everyother);
 */
 
@@ -240,7 +242,6 @@ console.log("a.some(): " + a.some(function (x) { return x % 2 === 0; }));
 */
 
 // 5、Array.reduce() 和 Array.reduceRight()，对数组元素进行函数操作组合，返回单个值 。参数一是操作函数，参数二可选是传递给函数的初始值。
-/*
 var a = [1, 2, 3, 4, 5];
 var sum = a.reduce(function (x, y) { return x + y }, 0);
 console.log("sum: " + sum);
@@ -248,7 +249,6 @@ var product = a.reduce(function (x, y) { return x * y }, 1);
 console.log("product: " + product);
 var max = a.reduce(function (x, y) { return (x>y)?x:y });
 console.log("max: " + max);
-*/
 
 // 6、Array.indexOf() 和 Array.lastIndexOf()，对数组元素进行搜索，找到第一个元素的索引，没找到的返回-1。
 /*

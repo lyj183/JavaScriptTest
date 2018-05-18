@@ -1,0 +1,16 @@
+// 自己做的练习，对比Java
+// 1、获取数组元素的最小值，最大值
+
+// 1、JS 实例 - 数组排序\元素查找\添加元素\获取数组长度\数组反转
+var a = [2, 5, -2, 6, -3, 8, 0, -7, -9, 4]
+console.log("数组为：" + a)
+console.log(a)
+console.log("1.数组排序结果为：")
+console.log(a.sort())
+console.log("2.元素2在第" + a.indexOf(2) + "个位置")
+console.log("3.元素1所在位置（负数为不存在）：" + a.indexOf(1));
+console.log("4.数组添加元素1")
+console.log(a.splice(5,0,1))
+console.log(a)
+console.log("最小值：" + Math.min(...a))
+console.log("最大值：" + Math.max(...a))

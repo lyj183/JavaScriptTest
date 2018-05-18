@@ -55,7 +55,7 @@ var a = [1,2,3];
 console.log(a.reverse().join());
 */
 
-// 3、Array.sort()，返回排序数组
+// 3、Array.sort()，返回排序数组，修改了调用的数组
 /*
 var a = [6,1,4,3,2,7,8,5];
 console.log(a.sort().join());
@@ -242,6 +242,7 @@ console.log("a.some(): " + a.some(function (x) { return x % 2 === 0; }));
 */
 
 // 5、Array.reduce() 和 Array.reduceRight()，对数组元素进行函数操作组合，返回单个值 。参数一是操作函数，参数二可选是传递给函数的初始值。
+/*
 var a = [1, 2, 3, 4, 5];
 var sum = a.reduce(function (x, y) { return x + y }, 0);
 console.log("sum: " + sum);
@@ -249,6 +250,7 @@ var product = a.reduce(function (x, y) { return x * y }, 1);
 console.log("product: " + product);
 var max = a.reduce(function (x, y) { return (x>y)?x:y });
 console.log("max: " + max);
+*/
 
 // 6、Array.indexOf() 和 Array.lastIndexOf()，对数组元素进行搜索，找到第一个元素的索引，没找到的返回-1。
 /*
@@ -282,3 +284,4 @@ for(var i in obj){
 console.log(narr);
 console.log(narr[1].key2);
 */
+

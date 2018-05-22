@@ -1,6 +1,8 @@
 // 自己做的练习，对比Java
 // 1、获取数组元素的最小值，最大值
 
+var _ = require('lodash')
+
 // 1、JS 实例 - 数组排序\元素查找\添加元素\获取数组长度\数组反转
 var a = [2, 5, -2, 6, -3, 8, 0, -7, -9, 4]
 console.log("数组为：" + a)
@@ -10,7 +12,85 @@ console.log(a.sort())
 console.log("2.元素2在第" + a.indexOf(2) + "个位置")
 console.log("3.元素1所在位置（负数为不存在）：" + a.indexOf(1));
 console.log("4.数组添加元素1")
-console.log(a.splice(5,0,1))
+a.splice(5,0,1) // 在index5，删除0，插入1
 console.log(a)
-console.log("最小值：" + Math.min(...a))
-console.log("最大值：" + Math.max(...a))
+var data = new Array(5)
+for (var i=0; i<data.length; i++) {
+    data[i] = new Array(3);
+} // 创建固定长度的二维数组方法
+console.log("第一维数组长度: " + data.length)
+console.log("第二维数组长度: " + data[0].length)
+var b = ['A', 'B', 'C', 'D', 'E']
+console.log("反转前排序: " + b)
+b.reverse()
+console.log("反转后排序: " + b)
+
+// JS 实例 - 数组获取最大最小值
+var c = [8, 2, 7, 1, 4, 9, 5]
+console.log("最小值：" + Math.min(...c))
+console.log("最大值：" + Math.max(...c))
+
+// JS 实例 - 数组合并
+var d = ['A', 'E', 'I']
+var e = ['O', 'U']
+var f = d.concat(e)  // concat()不会修改调用的数组
+Array.prototype.push.apply(d, e)  // 方法二，修改原数组
+console.log(f)
+console.log(d)
+
+// JS 实例 - 数组填充
+var g = new Array(6)
+g.fill(100)
+console.log(g)
+g.fill(50, 3, 5)
+console.log(g)
+
+// JS 实例 - 数组扩容\删除数组元素
+var h = ['A', 'B', 'C']
+var i = new Array(5)
+i[3] = 'D'
+i[4] = 'E'
+i.splice(0, 3, ...h)
+console.log("删除元素前：" + i)
+i.splice(0, i.length)
+console.log("删除全部元素：" + i)
+i.push("第0个元素")
+i.push("第1个元素")
+i.push("第2个元素")
+console.log("添加新元素后：" + i)
+// _.remove(i, function (n) {
+//     return n == "第0个元素"
+// })
+_.remove(i, n => n == "第0个元素")
+console.log("按value删除元素后：" + i)
+
+// JS 实例 - 数组是否有指定元素\是否相等\差集\交集
+var j = new Array()
+var k = new Array()
+j.push("commpn1")
+j.push("commpn2")
+j.push("notcommon3")
+k.push("commpn1")
+k.push("commpn2")
+k.push("notcommon1")
+k.push("notcommon2")
+console.log("j的元素：" + j)
+console.log("k的元素：" + k)
+console.log("j与k的差集为：" + _.difference(j, k))
+
+// ES6中使用Set结构:
+let m = new Set([1, 2, 3]);
+let n = new Set([3, 5, 2]);
+// 并集
+let unionSet = new Set([...m, ...n]);
+//[1,2,3,5]
+// 交集
+let intersectionSet = new Set([...m].filter(x => n.has(x)));
+// [2,3]
+// ab差集
+let differenceABSet = new Set([...m].filter(x => !n.has(x)));
+// [1]
+// 再把Set转换为数组即可
+let l = Array.from(differenceABSet);
+// 或 let arr = [...set];
+console.log(l)

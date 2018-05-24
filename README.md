@@ -14,4 +14,13 @@ lodash库
 
 # Test004
 moment库
+
+# Test005
+ES6 的 Object.keys() / Object.values() / Object.entries()
+```
+
+## 对比Java项目
+``` bash
+# testcompare001
+对比Java数组操作
 ```

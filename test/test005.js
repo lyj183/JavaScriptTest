@@ -4,4 +4,4 @@ console.log(Object.keys(obj))
 console.log(Object.values(obj))
 console.log(Object.entries(obj))
 var map = new Map(Object.entries(obj));
-console.log(map)
+console.log(map);

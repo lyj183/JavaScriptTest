@@ -48,3 +48,21 @@ console.log(Math.max(...values));
 let otherValues = [-25, -50, -75, -100];
 console.log(Math.max(...otherValues, 0));
 */
+
+// 三、
+// ES6精华：解构赋值
+// https://segmentfault.com/a/1190000015072149?utm_source=channel-hottest
+
+let [a] = [3];
+let [ , b] = [3, [7]];
+let {c} = {c: 3};
+let {m: {d}} = {m: {d: 3}};
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+
+let {e, f, g} = {e: 10, f: 9, g:[8, 7]}
+console.log(e);
+console.log(f);
+console.log(g);

@@ -7,7 +7,7 @@ JavaScript Test
 数组
 
 # Test002
-箭头函数
+箭头函数 / 扩展运算符 / 解构赋值
 
 # Test003
 lodash库

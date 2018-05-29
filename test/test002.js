@@ -52,7 +52,6 @@ console.log(Math.max(...otherValues, 0));
 // 三、
 // ES6精华：解构赋值
 // https://segmentfault.com/a/1190000015072149?utm_source=channel-hottest
-
 let [a] = [3];
 let [ , b] = [3, [7]];
 let {c} = {c: 3};
@@ -62,7 +61,10 @@ console.log(b);
 console.log(c);
 console.log(d);
 
+// https://segmentfault.com/a/1190000015066972?utm_source=channel-hottest
 let {e, f, g} = {e: 10, f: 9, g:[8, 7]}
 console.log(e);
 console.log(f);
 console.log(g);
+
+

@@ -17,6 +17,9 @@ moment库
 
 # Test005
 ES6 的 Object.keys() / Object.values() / Object.entries()
+
+# Test005
+async/await
 ```
 
 ## 对比Java项目

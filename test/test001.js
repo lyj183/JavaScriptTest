@@ -285,3 +285,7 @@ console.log(narr);
 console.log(narr[1].key2);
 */
 
+// 五、
+// js数组详细操作方法及解析合集
+// https://segmentfault.com/a/1190000015111104?utm_source=channel-hottest
+

@@ -73,6 +73,7 @@ console.log(b);
 */
 
 // 5、Array.slice()，截取并返回数组，slice()不会修改调用的数组
+
 /*
 var a = [1,2,3,4,5];
 console.log(a.slice(0,3));
@@ -81,6 +82,7 @@ console.log(a.slice(1,-1)); // -1指定了最后一个元素
 console.log(a.slice(-3,-2)); // -3指定了倒数第三个元素
 console.log(a);
 */
+
 
 // 6、Array.splice()，插入或删除元素返回数组，splice()不会修改调用的数组，区别于concat()，splice()会插入数组本身而非数组元素。
 /*
@@ -285,7 +287,32 @@ console.log(narr);
 console.log(narr[1].key2);
 */
 
+// 数组去重
+/*
+var arr = [2, 3, 1, 4, 2, 2, 3, 4, 1, 4, 2, "1", NaN, NaN]; // [2,3,1,4]
+//Set方法可以去除数组内重复的
+// ... 表明展开数组的每一项
+var res=[...(new Set(arr))];
+console.log(res);
+*/
+
 // 五、
 // js数组详细操作方法及解析合集
 // https://segmentfault.com/a/1190000015111104?utm_source=channel-hottest
+/*
+let a = ['1', '2', '3', '4'];
+let result = a.map(value => value + ' | 新数组的新元素');
+console.log(result, a)
+*/
+
+// 六、
+let a = ['I','love', 'you', '!']
+let b = a.join(' ')
+console.log(b)
+
+let c = 'I;love;you;!'
+let d = c.split(';')
+console.log(d)
+console.log(d[1])
+
 

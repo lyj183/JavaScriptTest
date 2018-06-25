@@ -23,6 +23,12 @@ async/await
 
 # Test007
 正则表达式
+
+# JavaScript深入系列
+原文参考：https://github.com/mqyqingfeng/Blog
+
+# Test008
+JavaScript深入之从原型到原型链
 ```
 
 ## 对比Java项目

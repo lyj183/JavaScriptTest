@@ -305,7 +305,8 @@ let result = a.map(value => value + ' | 新数组的新元素');
 console.log(result, a)
 */
 
-// 六、
+// 六、.join().split()
+/*
 let a = ['I','love', 'you', '!']
 let b = a.join(' ')
 console.log(b)
@@ -314,5 +315,24 @@ let c = 'I;love;you;!'
 let d = c.split(';')
 console.log(d)
 console.log(d[1])
+*/
 
+// 七、.concat()
+// 可以用作动态生成form
+let categoryList1 = [{
+    cate1Id: '',
+    cate1Name: '',
+    cate2Id: '',
+    cate2Name: '',
+    selectedIndex:0
+}]
 
+let categoryList2 = categoryList1.concat({
+    cate1Id: '',
+    cate1Name: '',
+    cate2Id: '',
+    cate2Name: '',
+    selectedIndex: 0
+})
+
+console.log(categoryList2)

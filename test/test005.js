@@ -8,12 +8,23 @@
 
 // 对象元素添加
 var str = '';
+var str1 = '';
 var obj1 = {};
 var key = [1, 2, 3];
 var label = ['看看', '听听', '说说'];
 for(let i=0; i<key.length; i++) {
     str += `{${key[i]}:${label[i]}}`;
     obj1[key[i]]=label[i];
+    if(i<key.length-1) {
+        str1 += label[i] + '、'
+    } else if(i=key.length-1) {
+        str1 += label[i]
+    }
+
 }
 console.log(obj1);
-console.dir(JSON.stringify(obj1))
+console.dir(JSON.stringify(obj1));
+console.dir(str1);
+
+
+

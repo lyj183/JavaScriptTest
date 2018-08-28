@@ -255,12 +255,12 @@ console.log("max: " + max);
 */
 
 // 6、Array.indexOf() 和 Array.lastIndexOf()，对数组元素进行搜索，找到第一个元素的索引，没找到的返回-1。
-/*
+
 var a = [0, 1, 2, 1, 0];
 console.log("a.indexOf(1): " + a.indexOf(1));
 console.log("a.lastIndexOf(1): " + a.lastIndexOf(1));
 console.log("a.indexOf(3): " + a.indexOf(3));
-*/
+
 
 // 四、
 // js得到多维数组中相同键的值

@@ -65,3 +65,22 @@ if (a+b == 0.3) {
 } else {
     console.log(a+b)
 }
+
+let c = Number("0011")
+console.log(c)
+let d = Number(true)
+console.log(d)
+let e = Number("Hello World")
+console.log(e)
+
+var color ="blue"
+
+function changeColor() {
+    if (color === "blue") {
+        color = "red"
+    } else {
+        color = "blue"
+    }
+}
+changeColor()
+console.log(color)

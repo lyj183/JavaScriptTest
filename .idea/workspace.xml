@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeed48b1-59b5-4f9b-88df-4af328a62f58" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test/test008.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test001.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test001.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test005.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test005.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test008.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test008.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +22,8 @@
       <file leaf-file-name="test001.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test001.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="331" column="18" selection-start-line="331" selection-start-column="18" selection-end-line="331" selection-end-column="18" />
+            <state relative-caret-position="412">
+              <caret line="264" column="5" selection-start-line="264" selection-end-line="264" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -49,7 +49,7 @@
       <file leaf-file-name="test002.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test002.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
+            <state relative-caret-position="625">
               <caret line="70" selection-start-line="70" selection-end-line="70" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -61,7 +61,7 @@
       <file leaf-file-name="test003.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test003.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-712">
+            <state relative-caret-position="60">
               <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -70,20 +70,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test005.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test005.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test005.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="53" />
+            <state relative-caret-position="225">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test008.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test008.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test008.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+            <state relative-caret-position="700">
+              <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -144,12 +147,12 @@
         <option value="$PROJECT_DIR$/test/test003.js" />
         <option value="$PROJECT_DIR$/TestCompareJava/testcompare001" />
         <option value="$PROJECT_DIR$/test/test006.js" />
-        <option value="$PROJECT_DIR$/test/test005.js" />
         <option value="$PROJECT_DIR$/test/test002.js" />
         <option value="$PROJECT_DIR$/test/test007.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/test/test001.js" />
         <option value="$PROJECT_DIR$/test/test008.js" />
+        <option value="$PROJECT_DIR$/test/test001.js" />
+        <option value="$PROJECT_DIR$/test/test005.js" />
       </list>
     </option>
   </component>
@@ -217,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.test008.js">
+  <component name="RunManager" selected="Node.js.test005.js">
     <configuration name="test001.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test001.js" working-dir="$PROJECT_DIR$/test" />
     <configuration name="test002.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test002.js" working-dir="$PROJECT_DIR$/test" />
     <configuration name="test005.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test005.js" working-dir="$PROJECT_DIR$/test" />
@@ -232,11 +235,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.test008.js" />
+        <item itemvalue="Node.js.test005.js" />
         <item itemvalue="Node.js.test001.js" />
+        <item itemvalue="Node.js.test008.js" />
         <item itemvalue="Node.js.test007.js" />
         <item itemvalue="Node.js.test002.js" />
-        <item itemvalue="Node.js.test005.js" />
       </list>
     </recent_temporary>
   </component>
@@ -276,12 +279,22 @@
       <workItem from="1529549412771" duration="281000" />
       <workItem from="1529572020142" duration="1912000" />
       <workItem from="1529909026921" duration="249000" />
-      <workItem from="1529912343499" duration="275000" />
+      <workItem from="1529912343499" duration="931000" />
+      <workItem from="1531378486393" duration="469000" />
+      <workItem from="1531388024487" duration="583000" />
+      <workItem from="1531724497794" duration="269000" />
+      <workItem from="1531725046797" duration="7000" />
+      <workItem from="1533031037530" duration="193000" />
+      <workItem from="1533272241642" duration="306000" />
+      <workItem from="1533621777680" duration="11000" />
+      <workItem from="1534913608930" duration="1178000" />
+      <workItem from="1534986567451" duration="1568000" />
+      <workItem from="1535363584636" duration="1605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51301000" />
+    <option name="totallyTimeSpent" value="58146000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,15 +306,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1396" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1396" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945454" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945454" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948717" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34871796" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34871796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31794873" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -691,9 +704,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test001.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="264" column="5" selection-start-line="264" selection-end-line="264" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test002.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
+        <state relative-caret-position="625">
           <caret line="70" selection-start-line="70" selection-end-line="70" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -703,7 +723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test003.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-712">
+        <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -718,10 +738,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test005.js">
+    <entry file="file://$PROJECT_DIR$/test/test007.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="3" selection-start-column="3" selection-end-column="53" />
+          <caret column="3" selection-start-column="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test008.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -732,24 +762,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test007.js">
+    <entry file="file://$PROJECT_DIR$/test/test005.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test001.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="331" column="18" selection-start-line="331" selection-start-column="18" selection-end-line="331" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test008.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        <state relative-caret-position="225">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

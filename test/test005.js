@@ -26,5 +26,7 @@ console.log(obj1);
 console.dir(JSON.stringify(obj1));
 console.dir(str1);
 
+console.log(label.join(","))
+
 
 

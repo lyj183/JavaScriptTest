@@ -6,6 +6,9 @@ var moment = require('moment');
 // 获取当前时间
 var time001 = new Date();
 console.log("time001: " + time001);
+// 第二天
+time001.setTime(time001.getTime()+24*60*60*1000);
+console.log("time001: " + time001);
 // 时间戳
 console.log("moment(time001): " + moment(time001));
 // 时间格式化

@@ -4,6 +4,8 @@
     <list default="true" id="eeed48b1-59b5-4f9b-88df-4af328a62f58" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test001.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test001.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test003.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test003.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test004.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test004.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test005.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test005.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +23,8 @@
       <file leaf-file-name="test001.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test001.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-463">
-              <caret line="262" column="2" selection-start-line="262" selection-start-column="2" selection-end-line="262" selection-end-column="2" />
+            <state relative-caret-position="1740">
+              <caret line="118" column="57" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -48,8 +50,8 @@
       <file leaf-file-name="test002.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test002.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="15">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -60,8 +62,8 @@
       <file leaf-file-name="test003.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test003.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="640">
+              <caret line="102" column="64" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -69,14 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test005.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test005.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test005.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="780">
+              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -84,7 +83,7 @@
       <file leaf-file-name="test008.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test008.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
+            <state relative-caret-position="1260">
               <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -102,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test004.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test004.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test004.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -135,6 +134,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Array.prototype.push.apply</find>
+      <find>...</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test003.js" />
         <option value="$PROJECT_DIR$/TestCompareJava/testcompare001" />
         <option value="$PROJECT_DIR$/test/test006.js" />
         <option value="$PROJECT_DIR$/test/test002.js" />
@@ -152,6 +151,8 @@
         <option value="$PROJECT_DIR$/test/test008.js" />
         <option value="$PROJECT_DIR$/test/test001.js" />
         <option value="$PROJECT_DIR$/test/test005.js" />
+        <option value="$PROJECT_DIR$/test/test003.js" />
+        <option value="$PROJECT_DIR$/test/test004.js" />
       </list>
     </option>
   </component>
@@ -164,7 +165,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1396" />
     <option name="height" value="877" />
@@ -219,26 +221,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.test005.js">
+  <component name="RunManager" selected="Node.js.test004.js">
     <configuration name="test001.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test001.js" working-dir="$PROJECT_DIR$/test" />
-    <configuration name="test002.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test002.js" working-dir="$PROJECT_DIR$/test" />
+    <configuration name="test003.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test003.js" working-dir="$PROJECT_DIR$/test" />
+    <configuration name="test004.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test004.js" working-dir="$PROJECT_DIR$/test" />
     <configuration name="test005.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test005.js" working-dir="$PROJECT_DIR$/test" />
-    <configuration name="test007.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test007.js" working-dir="$PROJECT_DIR$/test" />
     <configuration name="test008.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test008.js" working-dir="$PROJECT_DIR$/test" />
     <list>
       <item itemvalue="Node.js.test001.js" />
       <item itemvalue="Node.js.test005.js" />
-      <item itemvalue="Node.js.test002.js" />
-      <item itemvalue="Node.js.test007.js" />
       <item itemvalue="Node.js.test008.js" />
+      <item itemvalue="Node.js.test003.js" />
+      <item itemvalue="Node.js.test004.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.test004.js" />
+        <item itemvalue="Node.js.test003.js" />
         <item itemvalue="Node.js.test005.js" />
         <item itemvalue="Node.js.test001.js" />
         <item itemvalue="Node.js.test008.js" />
-        <item itemvalue="Node.js.test007.js" />
-        <item itemvalue="Node.js.test002.js" />
       </list>
     </recent_temporary>
   </component>
@@ -288,12 +290,20 @@
       <workItem from="1533621777680" duration="11000" />
       <workItem from="1534913608930" duration="1178000" />
       <workItem from="1534986567451" duration="1568000" />
-      <workItem from="1535363584636" duration="3366000" />
+      <workItem from="1535363584636" duration="3520000" />
+      <workItem from="1535709350871" duration="172000" />
+      <workItem from="1535937352583" duration="8000" />
+      <workItem from="1535958495022" duration="1641000" />
+      <workItem from="1536052823778" duration="491000" />
+      <workItem from="1536993377903" duration="870000" />
+      <workItem from="1537429769695" duration="2393000" />
+      <workItem from="1537509975069" duration="607000" />
+      <workItem from="1537943583204" duration="742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59907000" />
+    <option name="totallyTimeSpent" value="66985000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -703,23 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test007.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test008.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test006.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -727,47 +720,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test004.js">
+    <entry file="file://$PROJECT_DIR$/test/test007.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test003.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test002.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test001.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-463">
-          <caret line="262" column="2" selection-start-line="262" selection-start-column="2" selection-end-line="262" selection-end-column="2" />
+        <state relative-caret-position="1740">
+          <caret line="118" column="57" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test008.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test005.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="780">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test002.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test003.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="102" column="64" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test004.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="49" />
         </state>
       </provider>
     </entry>

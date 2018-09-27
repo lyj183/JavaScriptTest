@@ -120,7 +120,7 @@ var newList = JSON.parse(JSON.stringify(['a', 'b', 'c'])) || [];
 var baseList = JSON.parse(JSON.stringify(['base'])) || [];
 
 baseList.splice(0, 0, ...newList);
-console.log(1111, baseList);
+console.log(baseList);
 */
 
 // 7、Array.push()，在数组的尾部添加一个或多个元素，返回数组新长度；
@@ -306,7 +306,7 @@ console.log(result, a)
 */
 
 // 六、.join().split()
-
+/*
 let a = ['I','love', 'you', '!']
 let b = a.join(' ')
 console.log(b)
@@ -315,10 +315,11 @@ let c = 'I;love;you;!'
 let d = c.split(';')
 console.log(d)
 console.log(d[1])
-
+*/
 
 // 七、.concat()
 // 可以用作动态生成form
+/*
 let categoryList1 = [{
     cate1Id: '',
     cate1Name: '',
@@ -336,3 +337,4 @@ let categoryList2 = categoryList1.concat({
 })
 
 console.log(categoryList2)
+*/

@@ -73,7 +73,6 @@ console.log(b);
 */
 
 // 5、Array.slice()，截取并返回数组，slice()不会修改调用的数组
-
 /*
 var a = [1,2,3,4,5];
 console.log(a.slice(0,3));
@@ -82,7 +81,6 @@ console.log(a.slice(1,-1)); // -1指定了最后一个元素
 console.log(a.slice(-3,-2)); // -3指定了倒数第三个元素
 console.log(a);
 */
-
 
 // 6、Array.splice()，插入或删除元素返回数组，splice()不会修改调用的数组，区别于concat()，splice()会插入数组本身而非数组元素。
 /*
@@ -338,3 +336,8 @@ let categoryList2 = categoryList1.concat({
 
 console.log(categoryList2)
 */
+
+// 八、一个Number转换的坑
+let a = '15000000021488255'
+let b = Number(a); // 打印出来是15000000021488256 ！！！！
+console.log(b)

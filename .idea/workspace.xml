@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeed48b1-59b5-4f9b-88df-4af328a62f58" name="Default" comment="" />
+    <list default="true" id="eeed48b1-59b5-4f9b-88df-4af328a62f58" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test001.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test001.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,30 +18,32 @@
     <session id="441947445">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.3" value="4" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="1" />
+          <entry key="js" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="1" />
+          <entry key="JavaScript" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="141" />
+          <entry key="js" value="264" />
           <entry key="md" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="141" />
+          <entry key="JavaScript" value="264" />
           <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
@@ -46,62 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test007.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test001.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test006.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test002.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test003.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1515">
-              <caret line="102" column="64" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test005.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test008.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
-              <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="327" lean-forward="true" selection-start-line="327" selection-end-line="327" />
             </state>
           </provider>
         </entry>
@@ -109,38 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test009.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test004.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestCompareJava/testcompare001">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="96" selection-start-line="96" selection-end-line="96" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -171,12 +95,12 @@
         <option value="$PROJECT_DIR$/test/test002.js" />
         <option value="$PROJECT_DIR$/test/test007.js" />
         <option value="$PROJECT_DIR$/test/test008.js" />
-        <option value="$PROJECT_DIR$/test/test001.js" />
         <option value="$PROJECT_DIR$/test/test005.js" />
         <option value="$PROJECT_DIR$/test/test003.js" />
         <option value="$PROJECT_DIR$/test/test004.js" />
-        <option value="$PROJECT_DIR$/test/test009.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/test/test009.js" />
+        <option value="$PROJECT_DIR$/test/test001.js" />
       </list>
     </option>
   </component>
@@ -186,8 +110,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1396" />
     <option name="height" value="877" />
@@ -242,36 +165,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.test009.js">
-    <configuration name="test003.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test003.js" working-dir="$PROJECT_DIR$/test">
+  <component name="RunManager" selected="Node.js.test001.js">
+    <configuration name="test001.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="test001.js" working-dir="$PROJECT_DIR$/test">
       <method v="2" />
     </configuration>
-    <configuration name="test004.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test004.js" working-dir="$PROJECT_DIR$/test">
+    <configuration name="test003.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="test003.js" working-dir="$PROJECT_DIR$/test">
       <method v="2" />
     </configuration>
-    <configuration name="test005.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test005.js" working-dir="$PROJECT_DIR$/test">
+    <configuration name="test004.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="test004.js" working-dir="$PROJECT_DIR$/test">
       <method v="2" />
     </configuration>
-    <configuration name="test008.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test008.js" working-dir="$PROJECT_DIR$/test">
+    <configuration name="test008.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="test008.js" working-dir="$PROJECT_DIR$/test">
       <method v="2" />
     </configuration>
-    <configuration name="test009.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test009.js" working-dir="$PROJECT_DIR$/test">
+    <configuration name="test009.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="test009.js" working-dir="$PROJECT_DIR$/test">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.test005.js" />
       <item itemvalue="Node.js.test008.js" />
       <item itemvalue="Node.js.test003.js" />
       <item itemvalue="Node.js.test004.js" />
       <item itemvalue="Node.js.test009.js" />
+      <item itemvalue="Node.js.test001.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.test001.js" />
         <item itemvalue="Node.js.test009.js" />
         <item itemvalue="Node.js.test008.js" />
         <item itemvalue="Node.js.test004.js" />
         <item itemvalue="Node.js.test003.js" />
-        <item itemvalue="Node.js.test005.js" />
       </list>
     </recent_temporary>
   </component>
@@ -333,12 +256,17 @@
       <workItem from="1539660749271" duration="534000" />
       <workItem from="1540176908544" duration="61000" />
       <workItem from="1540177111496" duration="15000" />
-      <workItem from="1540524211651" duration="1043000" />
+      <workItem from="1540524211651" duration="2465000" />
+      <workItem from="1541993264477" duration="9000" />
+      <workItem from="1541993386295" duration="29000" />
+      <workItem from="1542332690682" duration="1976000" />
+      <workItem from="1542766802134" duration="150000" />
+      <workItem from="1542767047418" duration="190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68793000" />
+    <option name="totallyTimeSpent" value="72569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,21 +278,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1396" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1396" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945454" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32948717" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3477707" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3477707" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31719744" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30955413" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32948717" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -379,13 +306,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test001.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4365">
-          <caret line="291" column="13" selection-start-line="291" selection-start-column="13" selection-end-line="291" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test007.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -409,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test003.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="102" column="64" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
+        <state relative-caret-position="30">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -424,44 +344,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test004.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test008.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="510">
           <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test009.js">
+    <entry file="file://$PROJECT_DIR$/test/test004.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="360">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCompareJava/testcompare001">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="1425">
           <caret line="96" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test008.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test001.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="327" lean-forward="true" selection-start-line="327" selection-end-line="327" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test009.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>

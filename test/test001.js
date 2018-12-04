@@ -341,3 +341,7 @@ console.log(categoryList2)
 let a = '15000000021488255'
 let b = Number(a); // 打印出来是15000000021488256 ！！！！
 console.log(b)
+
+let c = '15000000021488255'
+let d = parseInt(c); // 打印出来是15000000021488256 ！！！！
+console.log(d)

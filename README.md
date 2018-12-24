@@ -30,9 +30,12 @@ async/await
 # Test008
 JavaScript深入之从原型到原型链
 
-# Test008
+# Test009
 JavaScript练习
 1、深拷贝/浅拷贝
+
+# Test010
+学习《深入理解ES6翻译完整版》
 ```
 
 ## 对比Java项目

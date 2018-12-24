@@ -338,6 +338,7 @@ console.log(categoryList2)
 */
 
 // 八、一个Number转换的坑
+/*
 let a = '15000000021488255'
 let b = Number(a); // 打印出来是15000000021488256 ！！！！
 console.log(b)
@@ -345,3 +346,16 @@ console.log(b)
 let c = '15000000021488255'
 let d = parseInt(c); // 打印出来是15000000021488256 ！！！！
 console.log(d)
+*/
+
+// parseInt()
+/*
+var a = "1234.5"
+console.log("a.indexOf(0): " + a.indexOf("6"));
+
+console.log(Number(a));
+console.log(parseInt(a));
+*/
+
+// 九、Math.ceil(x) 向上取整
+console.log(Math.ceil(12.2))  // 返回13

@@ -70,16 +70,29 @@ console.log(_.intersectionWith(objects, others, _.isEqual));
 // 3、_.join(array, [separator=','])，将 array 中的所有元素转换为由 separator 分隔的字符串。
 console.log(_.join(['a', 'b', 'c'], '~'));
 
-// 3、_.reverse(array)，反转array。
+// 4、_.reverse(array)，反转array。
 var array = [1, 2, 3];
 console.log(_.reverse(array));
 
-// 4、_.union([arrays])，创建一个按顺序排列的唯一值的数组。
+// 5、_.union([arrays])，创建一个按顺序排列的唯一值的数组。
 console.log(_.union([2, 3, 2, 1, 4, 4, 5]))
 
+// 6、时间戳
 console.log(_.now());
 */
 
+// 7、_.each
+var users = [
+  { 'user': 'barney',  'active': false },
+  { 'user': 'fred',    'active': false },
+  { 'user': 'pebbles', 'active': true }
+];
+
+var user = []
+_.each(users, item => {
+    item.user === 'fred' && user.push(item)
+})
+console.log(user)
 
 // 三、
 // 项目中用到的
@@ -94,6 +107,7 @@ console.log(_.now());
 //     //return data.id == value[0] || data.id == value[1] || data.id == value[2];
 // }
 //
+/*
 var users = [
     { 'user': 'barney',  'active': false },
     { 'user': 'fred',    'active': false },
@@ -101,3 +115,18 @@ var users = [
 ];
 console.log(_.findIndex(users, item => { return item.user == 'barney'; }));
 console.log(_.findIndex(users, item => { return item.user == 'no'; }));
+*/
+
+
+// ...运算符
+/*
+var array1 = [1, 2, 3, {name: "Lin", age: 18}];
+var array2 = [...array1];
+console.log("array1", array1);
+console.log("array2", array2);
+array1[3].name = "Li";
+console.log("array1", array1);
+console.log("array2", array2);
+var array3 = [..."hello"];
+console.log("array3", array3);
+*/

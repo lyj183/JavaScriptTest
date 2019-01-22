@@ -122,3 +122,36 @@ someDate4 = new Date(someDate4.getTime()-1000*60*someDate4.getTimezoneOffset())
 console.log(someDate4); // 更正了8小时时间差
 */
 
+// P.105
+/*
+var pattern = /[bc]at/; //匹配bat或cat
+console.log(pattern.test("abcabat"));
+var pattern2 = /^[A-Za-z0-9]+$/; // 匹配字母和数字
+console.log(pattern2.test("1781311111"))
+*/
+
+// P.121
+// Number的toFixed()取小数位，四舍五入
+/*
+var num = 10.005;
+console.log(num.toFixed(2));
+*/
+
+// P.136
+// Math方法
+// 随机一个1-10之间的数值
+/*
+var num = Math.floor(Math.random() * 10 + 1);
+console.log(num);
+function selectFrom(lowerValue, upperValue) {
+    var choices = upperValue - lowerValue + 1;
+    return Math.floor(Math.random() * choices + lowerValue);
+}
+// 随机选颜色
+var colors = ["red", "green", "blue", "yellow", "black", "purple", "brown"];
+var color = colors[selectFrom(0, colors.length - 1)];
+console.log(color);
+*/
+var str = String(1)
+console.log(str)
+console.log(typeof str)

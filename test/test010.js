@@ -41,11 +41,17 @@ console.log(num)
 
 // P.64
 // 函数参数
+// 做个加法函数
 /*
-function  sayHi() {
-    console.log("Hello " + arguments[0] + arguments[1]);
+function addFuc() {
+    let value = 0;
+    for (let i=0; i<arguments.length; i++) {
+        value += arguments[i];
+    }
+    console.log("合计", value);
 }
-sayHi("Lin", "Yijin")
+// 新贷, 孔贷, 雅物, 新物, 孔物, 话网视, 车保油, 水电气, 孩学, 人保, 活
+addFuc(4000, 4800, 300, 300, 150, 300, 600, 500, 700, 850, 2500)
 */
 
 // P.92
@@ -152,6 +158,3 @@ var colors = ["red", "green", "blue", "yellow", "black", "purple", "brown"];
 var color = colors[selectFrom(0, colors.length - 1)];
 console.log(color);
 */
-var str = String(1)
-console.log(str)
-console.log(typeof str)

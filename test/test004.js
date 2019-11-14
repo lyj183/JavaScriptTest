@@ -2,7 +2,7 @@
 
 /* 引入moment库 */
 var moment = require('moment');
-
+/*
 // 获取当前时间
 var time001 = new Date();
 console.log("time001: " + time001);
@@ -23,3 +23,7 @@ console.log("time003: " + time003);
 
 var time004 = (new Date()).getTime();
 console.log("time004: " + time004);
+*/
+// 时间格式化
+console.log("moment(1553506753): " + moment(1553506753).format('YYYY-MM-DD HH:mm:ss'));
+console.log("moment(1553508553): " + moment(1553508553).format('YYYY-MM-DD HH:mm:ss'));

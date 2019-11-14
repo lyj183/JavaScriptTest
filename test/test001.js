@@ -23,17 +23,17 @@ console.log("!!!  " + JSON.stringify(test));
 var test1 = JSON.parse(JSON.stringify(test)); // 拷贝数组,注意这行的拷贝方法
 console.log("test1");
 console.log(test1);
-// test1.c[0].dd="change"; // 改变test1的c属性对象的d属性
-// console.log("test");
-// console.log(test);  // 不影响test
-// console.log("test1");
-// console.log(test1);
-// var test2 = test;
-// test2.c[0].dd="change";
-// console.log("test");
-// console.log(test);  // 影响test
-// console.log("test2");
-// console.log(test2);
+test1.c[0].dd="change"; // 改变test1的c属性对象的d属性
+console.log("test");
+console.log(test);  // 不影响test
+console.log("test1");
+console.log(test1);
+var test2 = test;
+test2.c[0].dd="change";
+console.log("test");
+console.log(test);  // 影响test
+console.log("test2");
+console.log(test2);
 */
 
 // 二、
@@ -49,11 +49,11 @@ var b = new Array(10);
 console.log(b.join("-"));
 */
 
-// 2、Array.reverse() ，返回逆序数组
-/*
+// 2、Array.reverse() ，返回逆序数组字符串，修改了原数组
+
 var a = [1,2,3];
 console.log(a.reverse().join());
-*/
+console.log(a);
 
 // 3、Array.sort()，返回排序数组，修改了调用的数组
 /*
@@ -358,4 +358,6 @@ console.log(parseInt(a));
 */
 
 // 九、Math.ceil(x) 向上取整
+/*
 console.log(Math.ceil(12.2))  // 返回13
+ */

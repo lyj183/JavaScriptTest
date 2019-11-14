@@ -158,3 +158,10 @@ var colors = ["red", "green", "blue", "yellow", "black", "purple", "brown"];
 var color = colors[selectFrom(0, colors.length - 1)];
 console.log(color);
 */
+
+var c = ["沪A0101L", "沪A0102L"]
+console.log(c.join())
+let a = "沪A0101L,沪A0102L"
+let b = "沪A0100L"
+
+console.log(a.indexOf(b))

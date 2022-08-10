@@ -19,15 +19,15 @@ const obj = {
       }
     }
   }
-}
+}; 
 // console.log(obj)
-console.log(JSON.stringify(obj, null, 2))// 其中 2 是用于缩进的空格数。
+console.log(JSON.stringify(obj, null, 2)); // 其中 2 是用于缩进的空格数。
 
 // 3.Symbol
 const persons = {
   'bruce': 'wayne',
   'bruce': 'banner'
- }
+ }; 
   
  console.log(persons.bruce); // 'banner'
 // 如果这么写，getTodo(1)是-看电影
@@ -54,21 +54,21 @@ function getTodo(day) {
     default:
     return "日期错误";
   }
-}
+}; 
 
-console.log(getTodo(1)) // 日期错误
-console.log(getTodo(DAYS.monday)) // 看电影
+console.log(getTodo(1)); // 日期错误
+console.log(getTodo(DAYS.monday)); // 看电影
 
 const CACHE_KEY = Symbol.for('20220810#Gemini');
-console.log("CACHE_KEY: ", CACHE_KEY)
+console.log("CACHE_KEY: ", CACHE_KEY); // Symbol(20220810#Gemini)
 console.log("Symbol.keyFor(CACHE_KEY): ", Symbol.keyFor(CACHE_KEY)); // '20220810#Gemini'
 
-const data = {}
-data.CACHE_KEY = 'm'
-data[CACHE_KEY] = 'n'
-console.log("data: ", data)
-console.log("data.CACHE_KEY: ", data.CACHE_KEY)
-console.log("data[CACHE_KEY]: ", data[CACHE_KEY])
+const data = {}; 
+data.CACHE_KEY = 'm'; 
+data[CACHE_KEY] = 'n'; 
+console.log("data: ", data); // { CACHE_KEY: 'm', [Symbol(20220810#Gemini)]: 'n' }
+console.log("data.CACHE_KEY: ", data.CACHE_KEY); // m
+console.log("data[CACHE_KEY]: ", data[CACHE_KEY]); // n
 
 
 
@@ -79,18 +79,17 @@ console.log("data[CACHE_KEY]: ", data[CACHE_KEY])
 
 // 区别：
 // 用Symbol.for()方法创建的 symbol 会被放入一个全局 symbol 注册表中。Symbol.for() 并不是每次都会创建一个新的 symbol，它会首先检查给定的 key 是否已经在注册表中了。假如是，则会直接返回上次存储的那个。否则，它会再新建一个。
-//创建Symbol
+// 创建Symbol
 let s = Symbol();
-// console.log(s, typeof s);//Symbol() 'symbol'
 let s2 = Symbol('lll');
 let s3 = Symbol('lll');
-console.log(s2, typeof s2);//Symbol(lll) 'symbol'
-console.log(s3, typeof s3);//Symbol(lll) 'symbol'
-console.log(s2 === s3);//false
+console.log(s2, typeof s2); // Symbol(lll) 'symbol'
+console.log(s3, typeof s3); // Symbol(lll) 'symbol'
+console.log(s2 === s3); // false
 
 //Symbol.for 创建
 let s4 = Symbol.for('qqq');
 let s5 = Symbol.for('qqq');
-console.log(s4 === s5);//true
+console.log(s4 === s5); // true
 
 

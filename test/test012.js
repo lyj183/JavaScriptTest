@@ -106,4 +106,70 @@ console.log("s5: ", s5); // true
 console.log("s4 === s5: ", s4 === s5); // true
 console.log(Symbol.keyFor(s4)); // qqq
 
+// ====== 4.数组练习 ====== 
+var num1 = [1, 2, 3],
+    num2 = [4, 5, 6],
+    num3 = [7, 8, 1];
 
+var nums = num1.concat(num2, num3);  // concat ------ 合并数组
+
+console.log(Array.from(new Set(nums)));  // Array.from(new Set()) ------ 去重
+
+// 新增的，这个版本不支持
+// const array1 = [5, 12, 8, 130, 44];
+// let index = 0
+// console.log(`Using an index of ${index} the item returned is ${array1.at(index)}`);  // Array.at(index) ------ index取值
+
+const array2 = ['apple', 'orange']; 
+array2.forEach((item, index, array) => { // ------ forEach(item, index, array)
+  console.log(item, index, array)
+});
+
+var array3 = [1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]];
+console.log("array3: ", array3.flat(Infinity)); // ------ flat([depth]), 默认值为 1 使用 Infinity，可展开任意深度的嵌套数组
+
+
+// ====== N.练习 ====== 
+str = "112121"
+console.log(String(112121) === String(str))
+
+console.log(encodeURIComponent("HrCyztPkacpeRJfY++JkevCgv+rotJFiLeJAGYyFIES6LErGOaQT0hsBHmo//A+5h1NUQMTlXHwYXJQOX/0wvg=="))
+console.log(decodeURIComponent("HrCyztPkacpeRJfY%2B%2BJkevCgv%2BrotJFiLeJAGYyFIES6LErGOaQT0hsBHmo%2F%2FA%2B5h1NUQMTlXHwYXJQOX%2F0wvg%3D%3D"))
+
+
+console.log("memberId_mobile_channelId_token".split('_'))
+
+let test = null;
+if(!test && test !=0) {
+  console.log("test", test)
+}
+
+
+// let strrrr = null
+
+// const [appId, openId] = strrrr.split('_')
+
+// console.log("appId: ", appId, "openId: ", openId)
+
+
+let userInfo = null
+
+let openId = userInfo && userInfo.openId
+
+console.log(openId)
+
+
+let info = {  }
+
+const { openid: currentOpenId } = info;
+
+console.log(currentOpenId)
+
+if (currentOpenId) {
+  console.log(true)
+}else {
+  console.log(false)
+}
+
+
+console.log(Date.now())
